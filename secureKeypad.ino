@@ -1,3 +1,9 @@
+/*
+Created on August 10 2021 
+by Sean Ortiz with help from:
+https://www.circuitbasics.com/how-to-set-up-a-keypad-on-an-arduino/
+*/
+
 #include <Keypad.h>
 #include <LiquidCrystal.h>
 
@@ -5,7 +11,7 @@
 int motorPin = 2;   
 
 char Data[Password_Length]; 
-char Master[Password_Length] = "1939"; 
+char Master[Password_Length] = "3456"; 
 byte data_count = 0, master_count = 0;
 bool Pass_is_good;
 char customKey;
